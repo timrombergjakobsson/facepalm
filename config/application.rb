@@ -12,7 +12,7 @@ end
 module Facepalm
   class Application < Rails::Application
 
-    FACEBOOK_CONFIG = YAML.load_file("#{RAILS_ROOT}/config/facebook.yml")
+    FACEBOOK_CONFIG = YAML.load_file("#{Rails.root}/config/facebook.yml")
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
