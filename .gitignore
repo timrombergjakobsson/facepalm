@@ -33,4 +33,4 @@ capybara-*.html
 rerun.txt
 pickle-email-*.html
 
-config/facebook.yml
+config/facebook.rb
